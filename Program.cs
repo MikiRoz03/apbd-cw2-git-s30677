@@ -1,1 +1,2 @@
-﻿Console.WriteLine("Hello, World!");
+﻿int result = StatisticsHelper.Sum(2, 3);
+Console.WriteLine($"Sum: {result}");
