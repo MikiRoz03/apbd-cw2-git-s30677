@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Statistics app - main branch");
+Console.WriteLine("Statistics app - main and feature branch");
 int result = StatisticsHelper.Sum(2, 3);
 Console.WriteLine($"Sum: {result}");
 
