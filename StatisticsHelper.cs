@@ -6,4 +6,15 @@ public class StatisticsHelper
     {
         return a + b;
     }
+
+    public static double Average(int[] values)
+    {
+        int sum = 0;
+
+        foreach (int value in values)
+        {
+            sum += value;
+        }
+        return (double)sum / values.Length;
+    }
 }
