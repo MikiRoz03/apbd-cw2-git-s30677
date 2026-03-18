@@ -1,6 +1,4 @@
-﻿namespace DefaultNamespace;
-
-public class StatisticsHelper
+﻿public class StatisticsHelper
 {
     public static int Sum(int a, int b)
     {
